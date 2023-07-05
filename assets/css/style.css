@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Ingreso_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2%;
+    border: solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 350px;
+    height:500px;
+    align-items: center;
+    background-color:rgb(8, 125, 8);
+ 
+}
+h1{
+    color:beige;
+}
+.color{
+    border-radius: 50%;
+    border: solid black;
+    width: 30px;
+    height:30px;
+}
+.orden{
+    display: flex;
+    width: 350px;
+    
+    align-items: center
+}
+
+button{
+    width: 150px;
+    height:30px;
+    border-radius: 5%;
+    border:solid black;
+    color: aliceblue;
+    background-color: gold;
+    font-size: 15px;
+    transition: 0.5s;
+} 
+button:hover{
+    background: gold;
+    box-shadow:0 0 10px gold,
+    0 0 40px gold, 0 0 80px gold;
+}
